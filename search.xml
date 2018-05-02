@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[spenote]]></title>
-    <url>%2Fblog%2FSPE%2FSPE_note2%2F</url>
+    <title><![CDATA[SPE_note2]]></title>
+    <url>%2Fblog%2FSPE%2FSPE-note2%2F</url>
     <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>SPE</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[SPE]]></title>
