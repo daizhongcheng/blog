@@ -19,7 +19,7 @@
   <entry>
     <title><![CDATA[SPE]]></title>
     <url>%2Fblog%2Fstudy%2FSPE%2F</url>
-    <content type="text"><![CDATA[$x^2+y^2=c^2$$ \hat{a} \int_{i=0}^{n} $]]></content>
+    <content type="text"><![CDATA[$x^2+y^2=c^2$$ \hat{a} \int_{i=0}^{n} $ function changeFrameHeight(){ var ifm= document.getElementById(“iframepage”); ifm.height=document.documentElement.clientHeight; } window.onresize=function(){ changeFrameHeight(); }]]></content>
       <categories>
         <category>SPE</category>
       </categories>
