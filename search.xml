@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Exercise]]></title>
+    <url>%2Fblog%2FSPE%2FExercise%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>SPE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Exercise]]></title>
+    <url>%2Fblog%2Fundefined%2FExercise%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[SPE]]></title>
+    <url>%2Fblog%2Fstudy%2FSPE%2F</url>
+    <content type="text"><![CDATA[$x^2+y^2=c^2$$ \hat{a} \int_{i=0}^{n} $]]></content>
+      <categories>
+        <category>SPE</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[pflicht module und wahlpflicht module]]></title>
     <url>%2Fblog%2Fstudy%2Fpflicht-module-und-wahlpflicht-module%2F</url>
     <content type="text"><![CDATA[pflicht module1000 Pflichtmodule1010 Mathematik E41020 Numerical Mathematics 1030 Theorie statistischer Signale1040 State and Parameter Estimation1050 Nonlinear Control Systems 1060 Moderne Regelungstechnik1070 Robust Control1080 Prozessautomatisierung 1090 Kognitive technische Systeme1100 Fehlerdiagnose und Fehlertoleranz in technischen Systemen 1110 Strömungslehre 21120 Modelling and Simulation of Dynamic Systems1130 Distributed Systems1140 Real-Time Systems wapflicht module40153 Thermodynamik und Kraftwerktechnik40223 Fahrzeugtechnik41128 Advanced System and Control Theory41170 Test und Zuverlässigkeit digitaler Systeme41253 Power System Operation and Control41257 Operationsverstärker Praktikum50009 Computer/Robot Vision50011 Kognitive Robotersysteme50055 Algorithmische Numerik]]></content>
