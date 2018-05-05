@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[第一个python程序]]></title>
     <url>%2Fblog%2Fpython%2F%E7%AC%AC%E4%B8%80%E4%B8%AApython%E7%A8%8B%E5%BA%8F%2F</url>
-    <content type="text"><![CDATA[python交互模式在命令行模式下敲python3（我使用的是python3),进入到python交互模式，提示符为&gt;&gt;&gt;在python交互模式下输入exit()回车，退回到命令行模式。 打印出指定的文字让python打印出打定的文字，可以使用print()函数，然后把希望打印的文字用单引号或双引号括起来。 >>>print(‘hello,zhongcheng’) hello,zhongcheng 这种用单引号或者双引号括起来的文本在程序中叫字符串。最后用exit()，这就是第一个python。 文本编辑用文本编辑.py文件，可以用python3 *.py执行此文件。这是我的第一个python程序。]]></content>
+    <content type="text"><![CDATA[python交互模式在命令行模式下敲python3（我使用的是python3),进入到python交互模式，提示符为&gt;&gt;&gt;在python交互模式下输入exit()回车，退回到命令行模式。 打印出指定的文字让python打印出打定的文字，可以使用print()函数，然后把希望打印的文字用单引号或双引号括起来。` >>>print(‘hello,zhongcheng’) hello,zhongcheng ` 这种用单引号或者双引号括起来的文本在程序中叫字符串。最后用exit()，这就是第一个python。 文本编辑用文本编辑.py文件，可以用python3 *.py执行此文件。这是我的第一个python程序。]]></content>
       <categories>
         <category>python</category>
       </categories>
