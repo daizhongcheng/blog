@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="list 数据类型python的一种数据类型是列表：list它是一个有序的集合，可以随时添加和删除其中的元素。比如：列出自己的课程，就可以用list表示：  &amp;gt;&amp;gt;&amp;gt; vorlesungen = [‘math’,’SPE’,’FDI’]变量vorlesungen就是一个list,用len()函数可以获得list函数的个数：&amp;gt;&amp;gt;&amp;gt; len(vorlesungen)&amp;gt;&amp;gt;&amp;gt; 3用索引可以访问list中的每">
+<meta name="description" content="list 数据类型python的一种数据类型是列表：list它是一个有序的集合，可以随时添加和删除其中的元素。比如：列出自己的课程，就可以用list表示：  &amp;gt;&amp;gt;&amp;gt; vorlesungen = [‘math’,’SPE’,’FDI’]  变量vorlesungen就是一个list,用len()函数可以获得list函数的个数：  &amp;gt;&amp;gt;&amp;gt; len(vorlesungen)&amp;gt;&amp;gt;&amp;gt; 3  用索引可以访问l">
 <meta property="og:type" content="article">
 <meta property="og:title" content="list and tuple">
 <meta property="og:url" content="https://daizhongcheng.github.io/blog/python/list-and-tuple/index.html">
 <meta property="og:site_name" content="ZC">
-<meta property="og:description" content="list 数据类型python的一种数据类型是列表：list它是一个有序的集合，可以随时添加和删除其中的元素。比如：列出自己的课程，就可以用list表示：  &amp;gt;&amp;gt;&amp;gt; vorlesungen = [‘math’,’SPE’,’FDI’]变量vorlesungen就是一个list,用len()函数可以获得list函数的个数：&amp;gt;&amp;gt;&amp;gt; len(vorlesungen)&amp;gt;&amp;gt;&amp;gt; 3用索引可以访问list中的每">
+<meta property="og:description" content="list 数据类型python的一种数据类型是列表：list它是一个有序的集合，可以随时添加和删除其中的元素。比如：列出自己的课程，就可以用list表示：  &amp;gt;&amp;gt;&amp;gt; vorlesungen = [‘math’,’SPE’,’FDI’]  变量vorlesungen就是一个list,用len()函数可以获得list函数的个数：  &amp;gt;&amp;gt;&amp;gt; len(vorlesungen)&amp;gt;&amp;gt;&amp;gt; 3  用索引可以访问l">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-07T20:56:09.100Z">
+<meta property="og:updated_time" content="2018-05-07T20:59:34.582Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="list and tuple">
-<meta name="twitter:description" content="list 数据类型python的一种数据类型是列表：list它是一个有序的集合，可以随时添加和删除其中的元素。比如：列出自己的课程，就可以用list表示：  &amp;gt;&amp;gt;&amp;gt; vorlesungen = [‘math’,’SPE’,’FDI’]变量vorlesungen就是一个list,用len()函数可以获得list函数的个数：&amp;gt;&amp;gt;&amp;gt; len(vorlesungen)&amp;gt;&amp;gt;&amp;gt; 3用索引可以访问list中的每">
+<meta name="twitter:description" content="list 数据类型python的一种数据类型是列表：list它是一个有序的集合，可以随时添加和删除其中的元素。比如：列出自己的课程，就可以用list表示：  &amp;gt;&amp;gt;&amp;gt; vorlesungen = [‘math’,’SPE’,’FDI’]  变量vorlesungen就是一个list,用len()函数可以获得list函数的个数：  &amp;gt;&amp;gt;&amp;gt; len(vorlesungen)&amp;gt;&amp;gt;&amp;gt; 3  用索引可以访问l">
 
 
 
@@ -326,6 +326,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
 
@@ -353,11 +375,44 @@
       
         <h4 id="list-数据类型"><a href="#list-数据类型" class="headerlink" title="list 数据类型"></a>list 数据类型</h4><p>python的一种数据类型是列表：list它是一个有序的集合，可以随时添加和删除其中的元素。<br>比如：列出自己的课程，就可以用list表示：</p>
 <blockquote>
-<p>>>> vorlesungen = [‘math’,’SPE’,’FDI’]<br>变量<code>vorlesungen</code>就是一个list,用<code>len()</code>函数可以获得list函数的个数：<br>>>> len(vorlesungen)<br>>>> 3<br>用索引可以访问list中的每一个位置的元素，记得索引是从<code>0</code>开始的：<br>>>> vorlesungen[0]<br>>>> ‘math’<br><code>list</code>添加无素<br><em>.append()命令可以添加元素，在列数最末尾追加。<br>>>> vorlesungen.append(‘mehrg’)<br>.insert(i,’<em>**</em></em>‘)可以在任意位置添加元素。<br>>>> vorlesungen.insert(2,’pr’)<br>要删除list末尾的元素，用<code>pop()</code>命令<br>>>> vorlesungen.pop()<br>要删除指定的位置元素，用<code>pop()</code>的方法，其中<code>i</code>是索引位置。<br>>>> vorlesungen.pop(i)<br>可以用<code>len()</code>命令计算元数个数。<br>>>> len(vorlesungen)</p>
+<p>>>> vorlesungen = [‘math’,’SPE’,’FDI’]</p>
+</blockquote>
+<p>变量<code>vorlesungen</code>就是一个list,用<code>len()</code>函数可以获得list函数的个数：</p>
+<blockquote>
+<p>>>> len(vorlesungen)<br>>>> 3</p>
+</blockquote>
+<p>用索引可以访问list中的每一个位置的元素，记得索引是从<code>0</code>开始的：</p>
+<blockquote>
+<p>>>> vorlesungen[0]<br>>>> ‘math’</p>
+</blockquote>
+<p><code>list</code>添加无素<br>*.append()命令可以添加元素，在列数最末尾追加。</p>
+<blockquote>
+<p>>>> vorlesungen.append(‘mehrg’)</p>
+</blockquote>
+<p>.insert(i,’<strong>*</strong>‘)可以在任意位置添加元素。</p>
+<blockquote>
+<p>>>> vorlesungen.insert(2,’pr’)</p>
+</blockquote>
+<p>要删除list末尾的元素，用<code>pop()</code>命令</p>
+<blockquote>
+<p>>>> vorlesungen.pop()</p>
+</blockquote>
+<p>要删除指定的位置元素，用<code>pop()</code>的方法，其中<code>i</code>是索引位置。</p>
+<blockquote>
+<p>>>> vorlesungen.pop(i)</p>
+</blockquote>
+<p>可以用<code>len()</code>命令计算元数个数。</p>
+<blockquote>
+<p>>>> len(vorlesungen)</p>
 </blockquote>
 <h4 id="tuple-数据类型"><a href="#tuple-数据类型" class="headerlink" title="tuple 数据类型"></a>tuple 数据类型</h4><blockquote>
-<p>>>> vorl=(‘a’,’b’,’c’)<br>注意：如果定义一个1个元素的tuple，需要加入逗号<br>>>> t=(1,)<br>tuple的元素不能更改。</p>
+<p>>>> vorl=(‘a’,’b’,’c’)</p>
 </blockquote>
+<p>注意：如果定义一个1个元素的tuple，需要加入逗号</p>
+<blockquote>
+<p>>>> t=(1,)</p>
+</blockquote>
+<p>tuple的元素不能更改。</p>
 
       
     </div>
