@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Kalman Filter]]></title>
     <url>%2Fblog%2FSPE%2FKalman-Filter%2F</url>
-    <content type="text"><![CDATA[Why use kalman filters?]]></content>
+    <content type="text"><![CDATA[Why use kalman filters?#### State Observers#### Optimal state Estimator]]></content>
       <categories>
         <category>SPE</category>
       </categories>
