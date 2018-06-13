@@ -83,7 +83,7 @@
   <entry>
     <title><![CDATA[Dynamik und Stabilitaetsuntersuchung]]></title>
     <url>%2Fblog%2Fcontrol%2FMehrgroessenreglung%2F</url>
-    <content type="text"><![CDATA[$ \dot\underline{x}=Ax(t)+Bu(t) \in{R}^N $]]></content>
+    <content type="text"><![CDATA[$ \dot{\underline{x}}=Ax(t)+Bu(t) \in{R}^N $]]></content>
       <categories>
         <category>Control</category>
       </categories>
