@@ -83,7 +83,7 @@
   <entry>
     <title><![CDATA[Dynamik und Stabilitaetsuntersuchung]]></title>
     <url>%2Fblog%2Fcontrol%2FMehrgroessenreglung%2F</url>
-    <content type="text"><![CDATA[Gegenstand der Betrachtung:$ \dot{\underline{x}}=\underline{Ax}(t)+\underline{Bu}(t) \in{R}^N $loesung:$ \underline{x}(t)=\underline{e}^{A(t-t_0)}\underline{x}(t_0)+\int__{t__0}^t\underline{e}^(A(t-\tau))\underline{Bu}(\tau)d\tau $]]></content>
+    <content type="text"><![CDATA[Gegenstand der Betrachtung:$ \dot{\underline{x}}=\underline{Ax}(t)+\underline{Bu}(t) \in{R}^N $loesung:$ \underline{x}(t)=\underline{e}^{A(t-{t_0)}}\underline{x}(t_0)+\int__{t__0}^t\underline{e}^{A(t-\tau)}\underline{Bu}(\tau)d\tau $]]></content>
       <categories>
         <category>Control</category>
       </categories>
