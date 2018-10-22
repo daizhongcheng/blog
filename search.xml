@@ -104,4 +104,12 @@
         <category>FDI</category>
       </categories>
   </entry>
+  <entry>
+    <title><![CDATA[Basic concepts of fault diagnosis technique]]></title>
+    <url>%2Fblog%2Fundefined%2FBasic-concepts-of-fault-diagnosis-technique%2F</url>
+    <content type="text"><![CDATA[Three essential tasks: fault detection fault isolation fault analysis or identificationBasic ideas, major issues and tools in the observer-based FDI framework on the observer-based residual generator framework unknown input decoupling and fault isolation issues robustness issues in the observer-based FDI framework on the parity space FDI framework residual evaluation and threshold computation FDI system synthesis and design]]></content>
+      <categories>
+        <category>FDI</category>
+      </categories>
+  </entry>
 </search>
