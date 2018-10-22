@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="ZC">
-<meta property="og:url" content="https://daizhongcheng.github.io/blog/categories/Control/index.html">
+<meta name="description" content="Three essential tasks: fault detection fault isolation fault analysis or identificationBasic ideas, major issues and tools in the observer-based FDI framework on the observer-based residual generator">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Basic concepts of fault diagnosis technique">
+<meta property="og:url" content="https://daizhongcheng.github.io/blog/undefined/Basic-concepts-of-fault-diagnosis-technique/index.html">
 <meta property="og:site_name" content="ZC">
+<meta property="og:description" content="Three essential tasks: fault detection fault isolation fault analysis or identificationBasic ideas, major issues and tools in the observer-based FDI framework on the observer-based residual generator">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-10-22T13:30:22.661Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ZC">
+<meta name="twitter:title" content="Basic concepts of fault diagnosis technique">
+<meta name="twitter:description" content="Three essential tasks: fault detection fault isolation fault analysis or identificationBasic ideas, major issues and tools in the observer-based FDI framework on the observer-based residual generator">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://daizhongcheng.github.io/blog/categories/Control/"/>
+  <link rel="canonical" href="https://daizhongcheng.github.io/blog/undefined/Basic-concepts-of-fault-diagnosis-technique/"/>
 
 
 
 
 
-  <title>Category: Control | ZC</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>Basic concepts of fault diagnosis technique | ZC</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -140,7 +144,7 @@
     
   
 
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left ">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -268,55 +272,162 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Control<small>Category</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://daizhongcheng.github.io/blog/blog/undefined/Basic-concepts-of-fault-diagnosis-technique/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Zhongcheng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/blog/uploads/myfoto.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ZC">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/blog/control/Mehrgroessenreglung/" itemprop="url">
-              
-                <span itemprop="name">Dynamik und Stabilitaetsuntersuchung</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Basic concepts of fault diagnosis technique</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-04-13T05:35:30+02:00"
-              content="2018-04-13" >
-          04-13
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-02T13:58:04+01:00">
+                2018-03-02
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/undefined/Basic-concepts-of-fault-diagnosis-technique/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="undefined/Basic-concepts-of-fault-diagnosis-technique/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h4 id="Three-essential-tasks"><a href="#Three-essential-tasks" class="headerlink" title="Three essential tasks:"></a>Three essential tasks:</h4><ul>
+<li>fault detection</li>
+<li>fault isolation</li>
+<li>fault analysis or identification<h4 id="Basic-ideas-major-issues-and-tools-in-the-observer-based-FDI-framework"><a href="#Basic-ideas-major-issues-and-tools-in-the-observer-based-FDI-framework" class="headerlink" title="Basic ideas, major issues and tools in the observer-based FDI framework"></a>Basic ideas, major issues and tools in the observer-based FDI framework</h4></li>
+<li>on the observer-based residual generator framework</li>
+<li>unknown input decoupling and fault isolation issues</li>
+<li>robustness issues in the observer-based FDI framework</li>
+<li>on the parity space FDI framework</li>
+<li>residual evaluation and threshold computation</li>
+<li>FDI system synthesis and design</li>
+</ul>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/undefined/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -324,6 +435,20 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -344,8 +469,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -410,6 +544,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Three-essential-tasks"><span class="nav-number">1.</span> <span class="nav-text">Three essential tasks:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Basic-ideas-major-issues-and-tools-in-the-observer-based-FDI-framework"><span class="nav-number">2.</span> <span class="nav-text">Basic ideas, major issues and tools in the observer-based FDI framework</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -550,6 +700,10 @@
 
 
   
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -567,6 +721,18 @@
       <script id="dsq-count-scr" src="https://seccsc.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://daizhongcheng.github.io/blog/undefined/Basic-concepts-of-fault-diagnosis-technique/';
+          this.page.identifier = 'undefined/Basic-concepts-of-fault-diagnosis-technique/';
+          this.page.title = 'Basic concepts of fault diagnosis technique';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://seccsc.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
