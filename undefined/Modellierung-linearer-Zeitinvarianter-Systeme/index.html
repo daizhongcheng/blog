@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="ZC">
 <meta property="og:description" content="LTI-Modelle Zu Beginn wir machen die mathematische , systembeschreibung, die die Zusammenhaenge zwischen den Eingaengen u und den Ausgaengen y beschreibt. Matlabtellt nun fuer zeitkontinuierlicheund -">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-24T19:43:59.038Z">
+<meta property="og:updated_time" content="2018-10-24T19:46:27.477Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Modellierung linearer Zeitinvarianter Systeme">
 <meta name="twitter:description" content="LTI-Modelle Zu Beginn wir machen die mathematische , systembeschreibung, die die Zusammenhaenge zwischen den Eingaengen u und den Ausgaengen y beschreibt. Matlabtellt nun fuer zeitkontinuierlicheund -">
@@ -399,7 +399,8 @@
 <p>s = tf(‘s’)<br>G(s) =(4*s-2)/(s-3)</p>
 </blockquote>
 </blockquote>
-<h5 id="ZB-MIMO-TF"><a href="#ZB-MIMO-TF" class="headerlink" title="ZB.MIMO TF"></a>ZB.MIMO TF</h5><p>$ G(s)=\begin{bmatrix} g_{11} &amp; g_{12} \\ g_{21} &amp; g_{22} \ \end{bmatrix} $<br>$ g_{11}=\frac{2s-3}{s+1} $<br>$ g_{12}=\frac{s^2+s-6}{s+5} $<br>$ g_{21}=\frac{s+2}{s+4} $<br>$ g_{22}=\frac{-1}{2s^2+6s+10 $</p>
+<h5 id="ZB-MIMO-TF"><a href="#ZB-MIMO-TF" class="headerlink" title="ZB.MIMO TF"></a>ZB.MIMO TF</h5><p>$ G(s)=\begin{bmatrix} g_{11} &amp; g_{12} \\ g_{21} &amp; g_{22} \ \end{bmatrix} $</p>
+<p>$ g_{11}=\frac{2s-3}{s+1} $<br>$ g_{12}=\frac{s^2+s-6}{s+5} $<br>$ g_{21}=\frac{s+2}{s+4} $<br>$ g_{22}=\frac{-1}{2s^2+6s+10} $</p>
 <ul>
 <li>in matlab<br>g11 = tf([2 -3],[1 1]);<br>g12 = tf([1 1 -6],[1 5]);<br>g21 = tf([1 2],[1 4]);<br>g22 = tf([-1],[2 6 10]);<br>Zusammenfuegen zur Matrix G:<br>G = [g11 g12;g21 g22];</li>
 </ul>
