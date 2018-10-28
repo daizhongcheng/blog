@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="ZC">
 <meta property="og:description" content="MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp;amp; h_{12} \\ h_{21} &amp;amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = z">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-28T15:04:16.707Z">
+<meta property="og:updated_time" content="2018-10-28T15:08:18.689Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="zpk-mimo-Modellen">
 <meta name="twitter:description" content="MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp;amp; h_{12} \\ h_{21} &amp;amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = z">
@@ -412,9 +412,7 @@ To make changes, update the MATLAB code and republish this document.
 <pre><code>2 (s-4) (s-7)
 </code></pre><p>   2:  ————-<br>        (s-1) (s-6)</p>
 <p>Continuous-time zero/pole/gain model.</p>
-<p></p><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/" target="_blank" rel="noopener"></a><br></p>&lt;!–<p></p>
-<h5 id="SOURCE-BEGIN"><a href="#SOURCE-BEGIN" class="headerlink" title="SOURCE BEGIN"></a>SOURCE BEGIN</h5><p>%% ZPK MIMO Modell<br>%erstens Verfahren<br>%name:zhongcheng<br>h11 = zpk([1 2 5],[1 3 2],1) ;<br>h12 = zpk([2 3 6],[5 4],2) ;<br>h21 = zpk([2.1 3],[0 1],4) ;<br>h22 = zpk([4 7],[1 6],2) ;<br>H =[h11 h12 ; h21 h22] </p>
-<h5 id="SOURCE-END"><a href="#SOURCE-END" class="headerlink" title="SOURCE END"></a>SOURCE END</h5><p>–&gt;<!-- hexo-inject:begin --><!-- hexo-inject:end --></p>
+<p></p><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/" target="_blank" rel="noopener"></a><br></p><!-- hexo-inject:begin --><!-- hexo-inject:end --><p></p>
 <h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>至此，利用matlab，我们学会了用tf,zpk描述模型。下一部分我将要学到利用matlab去描述状态空间模型。</p>
 
       
@@ -599,7 +597,7 @@ To make changes, update the MATLAB code and republish this document.
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#MIMO-Modelle"><span class="nav-number">1.</span> <span class="nav-text">MIMO Modelle</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten"><span class="nav-number">2.</span> <span class="nav-text">Eingabe in Matlab erfolgt auf die zwei Arten:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Matlab-Zeigen"><span class="nav-number">3.</span> <span class="nav-text">Matlab Zeigen</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">ZPK MIMO Modell</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#SOURCE-BEGIN"><span class="nav-number">0.1.</span> <span class="nav-text">SOURCE BEGIN</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#SOURCE-END"><span class="nav-number">0.2.</span> <span class="nav-text">SOURCE END</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#小结"><span class="nav-number">1.</span> <span class="nav-text">小结</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#MIMO-Modelle"><span class="nav-number">1.</span> <span class="nav-text">MIMO Modelle</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten"><span class="nav-number">2.</span> <span class="nav-text">Eingabe in Matlab erfolgt auf die zwei Arten:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Matlab-Zeigen"><span class="nav-number">3.</span> <span class="nav-text">Matlab Zeigen</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">ZPK MIMO Modell</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#小结"><span class="nav-number">1.</span> <span class="nav-text">小结</span></a></li></ol></div>
             
 
           </div>
