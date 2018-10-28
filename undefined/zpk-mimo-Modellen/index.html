@@ -7,7 +7,7 @@
 
 <html class="theme-next gemini use-motion" lang="">
 <head>
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
+  <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="ZC">
 <meta property="og:description" content="MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp;amp; h_{12} \\ h_{21} &amp;amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = z">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-28T10:33:01.393Z">
+<meta property="og:updated_time" content="2018-10-28T15:04:16.707Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="zpk-mimo-Modellen">
 <meta name="twitter:description" content="MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp;amp; h_{12} \\ h_{21} &amp;amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = z">
@@ -125,7 +125,7 @@
 
 
 
-  <title>zpk-mimo-Modellen | ZC</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>zpk-mimo-Modellen | ZC</title>
   
 
 
@@ -144,7 +144,7 @@
     
   
 
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -389,6 +389,32 @@
         <h4 id="MIMO-Modelle"><a href="#MIMO-Modelle" class="headerlink" title="MIMO Modelle"></a>MIMO Modelle</h4><p>$$ G(s) = \begin{pmatrix} h_{11} &amp; h_{12} \\ h_{21} &amp; h{22} \end{pmatrix} $$</p>
 <h4 id="Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten"><a href="#Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten" class="headerlink" title="Eingabe in Matlab erfolgt auf die zwei Arten:"></a>Eingabe in Matlab erfolgt auf die zwei Arten:</h4><p>1.definieren der einzelnen zpk-siso-modelle mit zpk<br>h11 = zpk(z1,p1,k1) ;<br>h12 = zpk(z2,p2,k2) ;<br>h21 = zpk(z3,p3,k3) ;<br>h22 = zpk(z4,p4,k4) ;<br>G = [h11 h12;h21 h22];<br>2.rationale Funktionen is s:<br>s = zpk(‘s’);<br>h11 = 2<em>1/((s-1)</em>(s+2));<br>h12 = 2<em>(s-4)/((s-1)</em>(s+2));<br>h21 = 3<em>(s-5)/((s-7)</em>(s-5));<br>h22 = 4<em>(s-1)</em>(s-2)<em>(s-3)/((s-3)</em>s(4.5));<br>G = [h11 h12;h21 h22];<br>3.Definieren von zwei Cell Arrays<br>$$ Z = \begin{pmatrix} z_{11} &amp; z_{12} \\ z_{21} &amp; z_{22}  \end{pmatrix}      $$<br>$$ P = \begin{pmatrix} p_{11} &amp; p_{12} \\ p_{21} &amp; p_{22}  \end{pmatrix}      $$<br>$$ K = \begin{pmatrix} k_{11} &amp; k_{12} \\ k_{21} &amp; k_{22}  \end{pmatrix}      $$<br>Aufruf von zpk mit den Parametern Z,P und K.<br>$$ &gt;&gt; G= zpk(Z,P,K) ;</p>
 <h4 id="Matlab-Zeigen"><a href="#Matlab-Zeigen" class="headerlink" title="Matlab Zeigen"></a>Matlab Zeigen</h4><p>click  <a href="https://sites.google.com/site/publishcode/home/zpk" target="_blank" rel="noopener">Matlab Zeigen</a> </p>
+<p><html><head><br>      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><br>   <!-- hexo-inject:begin --><!-- hexo-inject:end --><!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>ZPK MIMO Modell</title><meta name="generator" content="MATLAB 9.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-10-28"><meta name="DC.source" content="zpklern.m"><style type="text/css"><br>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:’’;content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}</p>
+<p>html { min-height:100%; margin-bottom:1px; }<br>html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }<br>html body td { vertical-align:top; text-align:left; }</p>
+<p>h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }<br>h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }<br>h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }</p>
+<p>a { color:#005fce; text-decoration:none; }<br>a:hover { color:#005fce; text-decoration:underline; }<br>a:visited { color:#004aa0; text-decoration:none; }</p>
+<p>p { padding:0px; margin:0px 0px 20px; }<br>img { padding:0px; margin:0px 0px 20px; border:none; }<br>p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } </p>
+<p>ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }<br>ul li { padding:0px; margin:0px 0px 7px 0px; }<br>ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }<br>ul li ol li { list-style:decimal; }<br>ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }<br>ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }<br>ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }<br>ol li ol li { list-style-type:lower-alpha; }<br>ol li ul { padding-top:7px; }<br>ol li ul li { list-style:square; }</p>
+<p>.content { font-size:1.2em; line-height:140%; padding: 20px; }</p>
+<p>pre, code { font-size:12px; }<br>tt { font-size: 1.2em; }<br>pre { margin:0px 0px 20px; }<br>pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }<br>pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }<br>pre.error { color:red; }</p>
+<p>@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }</p>
+<p>span.keyword { color:#0000FF }<br>span.comment { color:#228B22 }<br>span.string { color:#A020F0 }<br>span.untermstring { color:#B20000 }<br>span.syscmd { color:#B28C00 }</p>
+<p>.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }<br>.footer p { margin:0px; }<br>.footer a { color:#878787; }<br>.footer a:hover { color:#878787; text-decoration:underline; }<br>.footer a:visited { color:#878787; }</p>
+<p>table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }<br>table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }</p>
+<p>  </style><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body><div class="content"><h1>ZPK MIMO Modell</h1><pre class="codeinput"><span class="comment">%erstens Verfahren</span><br><span class="comment">%name:zhongcheng</span><br>h11 = zpk([1 2 5],[1 3 2],1) ;<br>h12 = zpk([2 3 6],[5 4],2) ;<br>h21 = zpk([2.1 3],[0 1],4) ;<br>h22 = zpk([4 7],[1 6],2) ;<br>H =[h11 h12 ; h21 h22]<br></pre><pre class="codeoutput">H =</pre></div></body></html></p>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><p>  From input 1 to output…<br>       (s-1) (s-2) (s-5)<br>   1:  —————–<br>       (s-1) (s-2) (s-3)</p>
+<pre><code>4 (s-2.1) (s-3)
+</code></pre><p>   2:  —————<br>           s (s-1)</p>
+<p>  From input 2 to output…<br>       2 (s-2) (s-3) (s-6)<br>   1:  ——————-<br>           (s-5) (s-4)</p>
+<pre><code>2 (s-4) (s-7)
+</code></pre><p>   2:  ————-<br>        (s-1) (s-6)</p>
+<p>Continuous-time zero/pole/gain model.</p>
+<p></p><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/" target="_blank" rel="noopener"></a><br></p>&lt;!–<p></p>
+<h5 id="SOURCE-BEGIN"><a href="#SOURCE-BEGIN" class="headerlink" title="SOURCE BEGIN"></a>SOURCE BEGIN</h5><p>%% ZPK MIMO Modell<br>%erstens Verfahren<br>%name:zhongcheng<br>h11 = zpk([1 2 5],[1 3 2],1) ;<br>h12 = zpk([2 3 6],[5 4],2) ;<br>h21 = zpk([2.1 3],[0 1],4) ;<br>h22 = zpk([4 7],[1 6],2) ;<br>H =[h11 h12 ; h21 h22] </p>
+<h5 id="SOURCE-END"><a href="#SOURCE-END" class="headerlink" title="SOURCE END"></a>SOURCE END</h5><p>–&gt;<!-- hexo-inject:begin --><!-- hexo-inject:end --></p>
 <h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>至此，利用matlab，我们学会了用tf,zpk描述模型。下一部分我将要学到利用matlab去描述状态空间模型。</p>
 
       
@@ -573,7 +599,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#MIMO-Modelle"><span class="nav-number">1.</span> <span class="nav-text">MIMO Modelle</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten"><span class="nav-number">2.</span> <span class="nav-text">Eingabe in Matlab erfolgt auf die zwei Arten:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Matlab-Zeigen"><span class="nav-number">3.</span> <span class="nav-text">Matlab Zeigen</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#小结"><span class="nav-number">4.</span> <span class="nav-text">小结</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#MIMO-Modelle"><span class="nav-number">1.</span> <span class="nav-text">MIMO Modelle</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten"><span class="nav-number">2.</span> <span class="nav-text">Eingabe in Matlab erfolgt auf die zwei Arten:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Matlab-Zeigen"><span class="nav-number">3.</span> <span class="nav-text">Matlab Zeigen</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">ZPK MIMO Modell</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#SOURCE-BEGIN"><span class="nav-number">0.1.</span> <span class="nav-text">SOURCE BEGIN</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#SOURCE-END"><span class="nav-number">0.2.</span> <span class="nav-text">SOURCE END</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#小结"><span class="nav-number">1.</span> <span class="nav-text">小结</span></a></li></ol></div>
             
 
           </div>
@@ -1145,7 +1171,7 @@
         }
       });
     </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
