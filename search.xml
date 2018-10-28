@@ -9,6 +9,14 @@
       </categories>
   </entry>
   <entry>
+    <title><![CDATA[zpk-mimo-Modellen]]></title>
+    <url>%2Fblog%2Fundefined%2Fzpk-mimo-Modellen%2F</url>
+    <content type="text"><![CDATA[MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp; h_{12} \\ h_{21} &amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = zpk(z1,p1,k1) ;h12 = zpk(z2,p2,k2) ;h21 = zpk(z3,p3,k3) ;h22 = zpk(z4,p4,k4) ;G = [h11 h12;h21 h22];2.rationale Funktionen is s:s = zpk(‘s’);h11 = 21/((s-1)(s+2));h12 = 2(s-4)/((s-1)(s+2));h21 = 3(s-5)/((s-7)(s-5));h22 = 4(s-1)(s-2)(s-3)/((s-3)s(4.5));G = [h11 h12;h21 h22];3.Definieren von zwei Cell Arrays$$ Z = \begin{pmatrix} z_{11} &amp; z_{12} \\ z_{21} &amp; z_{22} \end{pmatrix} $$$$ P = \begin{pmatrix} p_{11} &amp; p_{12} \\ p_{21} &amp; p_{22} \end{pmatrix} $$$$ K = \begin{pmatrix} k_{11} &amp; k_{12} \\ k_{21} &amp; k_{22} \end{pmatrix} $$Aufruf von zpk mit den Parametern Z,P und K.$$ &gt;&gt; G= zpk(Z,P,K) ; Matlab Zeigenclick Matlab Zeigen 小结至此，利用matlab，我们学会了用tf,zpk描述模型。下一部分我将要学到利用matlab去描述状态空间模型。]]></content>
+      <categories>
+        <category>Matlab simulation</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[use arrays to describe MIMO system]]></title>
     <url>%2Fblog%2Fundefined%2Fuse-arrays-to-describe-MIMO-system%2F</url>
     <content type="text"><![CDATA[cell arrayszaehlerpolynome := NUMnennerpolynome := DEN$$ NUM = \begin{pmatrix} n_{11} &amp; n_{12} \\ n_{21} &amp; n_{22} \end{pmatrix} $$$$ DEN = \begin{pmatrix} d_{11} &amp; d_{12} \\ d_{21} &amp; d{22} \end{pmatrix} $$In Matlab geben wir die Vektoren mit den Koeffizienten von s in absteigende Reihenfolge von s ein. IN matlab NUM = {[2 -3] [1 1 -6];[1 2] 1}DEN = {[1 1] [1 5];[1 5 4] [2 6 10]}Und dann koennen wir noch ein mal tf Befehl benutzen.G(s) = tf(NUM,DEN); System nur mit Verstaerkungdas bedeutet output / input = constantzB.$$ G_1(s) = 3/1 $$$$ G_2(s) = 0/2 $$in matlab wir koennen eingeben G = tf{[1 2;3 0]}; %1 2 sind input,3 0 sind ouptput.]]></content>

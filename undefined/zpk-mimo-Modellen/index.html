@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp;amp; h_{12} \\ h_{21} &amp;amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = z">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SPE_note1">
-<meta property="og:url" content="https://daizhongcheng.github.io/blog/SPE/SPE-note1/index.html">
+<meta property="og:title" content="zpk-mimo-Modellen">
+<meta property="og:url" content="https://daizhongcheng.github.io/blog/undefined/zpk-mimo-Modellen/index.html">
 <meta property="og:site_name" content="ZC">
+<meta property="og:description" content="MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp;amp; h_{12} \\ h_{21} &amp;amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = z">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-03T15:32:39.862Z">
+<meta property="og:updated_time" content="2018-10-28T10:14:32.530Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SPE_note1">
+<meta name="twitter:title" content="zpk-mimo-Modellen">
+<meta name="twitter:description" content="MIMO Modelle$$ G(s) = \begin{pmatrix} h_{11} &amp;amp; h_{12} \\ h_{21} &amp;amp; h{22} \end{pmatrix} $$ Eingabe in Matlab erfolgt auf die zwei Arten:1.definieren der einzelnen zpk-siso-modelle mit zpkh11 = z">
 
 
 
@@ -116,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://daizhongcheng.github.io/blog/SPE/SPE-note1/"/>
+  <link rel="canonical" href="https://daizhongcheng.github.io/blog/undefined/zpk-mimo-Modellen/"/>
 
 
 
 
 
-  <title>SPE_note1 | ZC</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>zpk-mimo-Modellen | ZC</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -283,7 +286,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://daizhongcheng.github.io/blog/blog/SPE/SPE-note1/">
+    <link itemprop="mainEntityOfPage" href="https://daizhongcheng.github.io/blog/blog/undefined/zpk-mimo-Modellen/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zhongcheng">
@@ -300,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">SPE_note1</h1>
+          <h1 class="post-title" itemprop="name headline">zpk-mimo-Modellen</h1>
         
 
         <div class="post-meta">
@@ -312,8 +315,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-03T17:21:12+02:00">
-                2018-05-03
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-27T22:33:54+02:00">
+                2018-05-27
               </time>
             
 
@@ -335,8 +338,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/blog/categories/SPE/" itemprop="url" rel="index">
-                    <span itemprop="name">SPE</span>
+                  <a href="/blog/categories/Matlab-simulation/" itemprop="url" rel="index">
+                    <span itemprop="name">Matlab simulation</span>
                   </a>
                 </span>
 
@@ -346,6 +349,19 @@
             </span>
           
 
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/undefined/zpk-mimo-Modellen/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="undefined/zpk-mimo-Modellen/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -370,8 +386,10 @@
       
 
       
-        <iframe id="iFrame1" name="iFrame1" width="100%" height="750" onload="this.height=iFrame1.document.body.scrollHeight" frameborder="0" src="https://onedrive.live.com/embed?cid=47AC61B16FE820EE&resid=47AC61B16FE820EE%21364&authkey=ALchs3SUg8cfYXA&em=2"></iframe>
-
+        <h4 id="MIMO-Modelle"><a href="#MIMO-Modelle" class="headerlink" title="MIMO Modelle"></a>MIMO Modelle</h4><p>$$ G(s) = \begin{pmatrix} h_{11} &amp; h_{12} \\ h_{21} &amp; h{22} \end{pmatrix} $$</p>
+<h4 id="Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten"><a href="#Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten" class="headerlink" title="Eingabe in Matlab erfolgt auf die zwei Arten:"></a>Eingabe in Matlab erfolgt auf die zwei Arten:</h4><p>1.definieren der einzelnen zpk-siso-modelle mit zpk<br>h11 = zpk(z1,p1,k1) ;<br>h12 = zpk(z2,p2,k2) ;<br>h21 = zpk(z3,p3,k3) ;<br>h22 = zpk(z4,p4,k4) ;<br>G = [h11 h12;h21 h22];<br>2.rationale Funktionen is s:<br>s = zpk(‘s’);<br>h11 = 2<em>1/((s-1)</em>(s+2));<br>h12 = 2<em>(s-4)/((s-1)</em>(s+2));<br>h21 = 3<em>(s-5)/((s-7)</em>(s-5));<br>h22 = 4<em>(s-1)</em>(s-2)<em>(s-3)/((s-3)</em>s(4.5));<br>G = [h11 h12;h21 h22];<br>3.Definieren von zwei Cell Arrays<br>$$ Z = \begin{pmatrix} z_{11} &amp; z_{12} \\ z_{21} &amp; z_{22}  \end{pmatrix}      $$<br>$$ P = \begin{pmatrix} p_{11} &amp; p_{12} \\ p_{21} &amp; p_{22}  \end{pmatrix}      $$<br>$$ K = \begin{pmatrix} k_{11} &amp; k_{12} \\ k_{21} &amp; k_{22}  \end{pmatrix}      $$<br>Aufruf von zpk mit den Parametern Z,P und K.<br>$$ &gt;&gt; G= zpk(Z,P,K) ;</p>
+<h4 id="Matlab-Zeigen"><a href="#Matlab-Zeigen" class="headerlink" title="Matlab Zeigen"></a>Matlab Zeigen</h4><p>click  <a href="https://sites.google.com/site/publishcode/home/zpk" target="_blank" rel="noopener">Matlab Zeigen</a> </p>
+<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>至此，利用matlab，我们学会了用tf,zpk描述模型。下一部分我将要学到利用matlab去描述状态空间模型。</p>
 
       
     </div>
@@ -396,8 +414,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/linear_algebra/video-linear-algebra/" rel="next" title="video for linear algebra">
-                <i class="fa fa-chevron-left"></i> video for linear algebra
+              <a href="/blog/undefined/use-arrays-to-describe-MIMO-system/" rel="next" title="use arrays to describe MIMO system">
+                <i class="fa fa-chevron-left"></i> use arrays to describe MIMO system
               </a>
             
           </div>
@@ -406,8 +424,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/blog/python/第一个python程序/" rel="prev" title="第一个python程序">
-                第一个python程序 <i class="fa fa-chevron-right"></i>
+              <a href="/blog/undefined/zero-and-pole-gain/" rel="prev" title="zero and pole gain">
+                zero and pole gain <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -437,6 +455,20 @@
 
           
 
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
+
         </div>
         
           
@@ -456,8 +488,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -522,6 +563,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#MIMO-Modelle"><span class="nav-number">1.</span> <span class="nav-text">MIMO Modelle</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Eingabe-in-Matlab-erfolgt-auf-die-zwei-Arten"><span class="nav-number">2.</span> <span class="nav-text">Eingabe in Matlab erfolgt auf die zwei Arten:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Matlab-Zeigen"><span class="nav-number">3.</span> <span class="nav-text">Matlab Zeigen</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#小结"><span class="nav-number">4.</span> <span class="nav-text">小结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -696,6 +753,18 @@
       <script id="dsq-count-scr" src="https://seccsc.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://daizhongcheng.github.io/blog/undefined/zpk-mimo-Modellen/';
+          this.page.identifier = 'undefined/zpk-mimo-Modellen/';
+          this.page.title = 'zpk-mimo-Modellen';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://seccsc.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
