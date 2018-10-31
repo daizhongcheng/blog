@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2Fblog%2Fundefined%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>web</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[what is machine learning]]></title>
+    <url>%2Fblog%2Fundefined%2Fwhat-is-machine-learning%2F</url>
+    <content type="text"><![CDATA[artificial intelligence artificial =Machine LearningData Mining Machine Learning =Pattern RecognitionNeural NetworkDeep Learning what is Machine LearningFailure is the mother of success. Step to make Machine Learning1.First build the matimatical model.2.sove weights based on these data. Mashine Learning is based on data learning. costfunktionlet costfunktion $ \to 0 $ then we will find the answer.]]></content>
+      <categories>
+        <category>machine learning</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Mac Log]]></title>
+    <url>%2Fblog%2Fundefined%2FMac-Log%2F</url>
+    <content type="text"><![CDATA[1pip Python 安装jupyterpython3 -m pip install jupyter 2018 10 30卸载时用pip uninstall jupyter conda create -n env_name python=2.7 新建环境macsource activate env_name 进入环境windowsactivate env_name 微软进入环境 pip install ipykernelpython -m ipykernel install –name py27wanmen 安装ipykernel,取一个名子py27wanmen windows user 在p27中要退出deactivate mac user 在p27中要退出source deactivate 查看已有的kernel jupyter kernelspece list]]></content>
+      <categories>
+        <category>Maclog</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[knowledge point of the papger topic]]></title>
+    <url>%2Fblog%2Fundefined%2Fknowledge-point-of-the-papger-topic%2F</url>
+    <content type="text"><![CDATA[协方差矩阵$$ x = \begin{bmatrix} X_1 \\ X_2 \\ X_2 \\ \vdots \\ X_n \end{bmatrix} $$协方差的第（i,j）项是 $$ \sum_{ij}=cov(X_i,X_j) $$协方差矩阵为$$ \sum= E\begin{bmatrix} (X-E[X])(X-E[X])^T \end{bmatrix} $$1 协方差矩阵具有对称，半正定属性。2 协方差属于半正定对称矩阵的黎曼流形。3 黎曼几何数学工具！基于黎曼距离来表示 数据处理1 根据样本数据，表示为一个协方差矩阵流形序列2 存在很多方差矩阵，根据很多方差矩阵求平均方差矩阵（参考协方差矩阵） 黎曼距离计算1 超出上下界线？是 则为有故障，否 则运行正常 自适应的方式估计参考矩阵我们研究的是通过自适应的方式估计参考矩阵吗？ 黎曼几何黎曼度量的光滑流形，即流形切空间上二次形式的选择。它特别关注于角度，弧线长度及体积，把每个微小部分加起来而得到的整体的数量。黎曼几何理论：1.紧致二维黎曼流形上高斯曲率的积分等 $ i2\pi x $ 相空间重构一维时间序列反向构造出原系统的相空间结构，相空间的关键是风俗入维数m 和延迟时间$ \tau $问题：m和$ \tau $ 怎么确定？]]></content>
+      <categories>
+        <category>Masterarbeit</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Zeitdiskrete Darstellung von LTI-Modellen]]></title>
     <url>%2Fblog%2Fundefined%2FZeitdiskrete-Darstellung-von-LTI-Modellen%2F</url>
     <content type="text"><![CDATA[Die Matlab-Befehle1234systf syszpk sysss sysf rd= tf(num,den,Ts) = zpk(z,p,k,Ts)= ss(a,b,c,d,Ts)= frd (ant,f req,Ts) Eine zeitdiskrete Uebertragungsfunktionz.B.$ h_{TF}=\frac{z-0.5}{z^2+z-2}=h_{ZPK}=\frac{z-0.5}{(z+2)(z-1)} $12345678Befehl:tf(num,den,Ts)Befehl:zpk(z,p,k,Ts)h=tf([1 -0.5],[1 1 -2],0.01) ;h=zpk(0.5,[-2,1],1,0.01); Rationale Funktion in z123456z = tf(&apos;z&apos;,0.01);g= (z-0.05)/(z^2+z-2);orz=zpk(&apos;z&apos;,0.01);g= (z-0.05)/((z+2)*(z-1)) Matlab Zeigen&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt; discretelernhtml,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:’’;content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0} html { min-height:100%; margin-bottom:1px; }html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }html body td { vertical-align:top; text-align:left; } h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; } a { color:#005fce; text-decoration:none; }a:hover { color:#005fce; text-decoration:underline; }a:visited { color:#004aa0; text-decoration:none; } p { padding:0px; margin:0px 0px 20px; }img { padding:0px; margin:0px 0px 20px; border:none; }p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }ul li { padding:0px; margin:0px 0px 7px 0px; }ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }ul li ol li { list-style:decimal; }ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }ol li ol li { list-style-type:lower-alpha; }ol li ul { padding-top:7px; }ol li ul li { list-style:square; } .content { font-size:1.2em; line-height:140%; padding: 20px; } pre, code { font-size:12px; }tt { font-size: 1.2em; }pre { margin:0px 0px 20px; }pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }pre.error { color:red; } @media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } } span.keyword { color:#0000FF }span.comment { color:#228B22 }span.string { color:#A020F0 }span.untermstring { color:#B20000 }span.syscmd { color:#B28C00 } .footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }.footer p { margin:0px; }.footer a { color:#878787; }.footer a:hover { color:#878787; text-decoration:underline; }.footer a:visited { color:#878787; } table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; } ContentsnormalRationale Funktionnormalh=tf([1 -0.5],[1 1 -2],0.01)h=zpk(0.5,[-2,1],1,0.01)h = z - 0.5 z^2 + z - 2 Sample time: 0.01 secondsDiscrete-time transfer function. h = (z-0.5) (z+2) (z-1) Sample time: 0.01 secondsDiscrete-time zero/pole/gain model. Rationale Funktionz = tf(‘z’,0.01)g= (z-0.05)/(z^2+z-2) z=zpk(‘z’,0.01);g= (z-0.05)/((z+2)*(z-1)) Sample time: 0.01 secondsDiscrete-time transfer function. g = z - 0.05 z^2 + z - 2 Sample time: 0.01 secondsDiscrete-time transfer function. g = (z-0.05) (z+2) (z-1) Sample time: 0.01 secondsDiscrete-time zero/pole/gain model.]]></content>
@@ -121,6 +153,14 @@
       </categories>
   </entry>
   <entry>
+    <title><![CDATA[request package]]></title>
+    <url>%2Fblog%2Fundefined%2Frequest-package%2F</url>
+    <content type="text"><![CDATA[request packagen install1234567pip install requestsimport requestsprint(os.getcwd())r = requests.get(&quot;http://www.baidu.com&quot;)print(r,url)print(r,encoding) print(r,text)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[SPE]]></title>
     <url>%2Fblog%2Fstudy%2FSPE%2F</url>
     <content type="text"><![CDATA[$x^2+y^2=c^2$$ \hat{a} \int_{i=0}^{n} $]]></content>
@@ -142,14 +182,6 @@
     <content type="text"><![CDATA[Gegenstand der Betrachtung:$ \dot{\underline{x}}=\underline{Ax}(t)+\underline{Bu}(t) \in{R}^N $loesung:$ \underline{x}(t)=\underline{e}^{A(t-{t_0})}\underline{x}(t_0)+\int_{t_0}^{t}\underline{e}^{A(t-\tau)}\underline{Bu}(\tau)d\tau $Definition und Eigenschaft der Matrizen-e Funktion]]></content>
       <categories>
         <category>Control</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2Fblog%2Fundefined%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>web</category>
       </categories>
   </entry>
   <entry>
