@@ -19,7 +19,7 @@
   <entry>
     <title><![CDATA[Mac Log]]></title>
     <url>%2Fblog%2Fundefined%2FMac-Log%2F</url>
-    <content type="text"><![CDATA[1pip Python 安装jupyterpython3 -m pip install jupyter 2018 10 30卸载时用pip uninstall jupyter conda create -n env_name python=2.7 新建环境macsource activate env_name 进入环境windowsactivate env_name 微软进入环境 pip install ipykernelpython -m ipykernel install –name py27wanmen 安装ipykernel,取一个名子py27wanmen windows user 在p27中要退出deactivate mac user 在p27中要退出source deactivate 查看已有的kernel jupyter kernelspece list]]></content>
+    <content type="text"><![CDATA[1pip Python 安装jupyterpython3 -m pip install jupyter 2018 10 30卸载时用pip uninstall jupyter conda create -n env_name python=2.7 新建环境macsource activate env_name 进入环境windowsactivate env_name 微软进入环境 pip install ipykernelpython -m ipykernel install –name py27wanmen 安装ipykernel,取一个名子py27wanmen windows user 在p27中要退出deactivate mac user 在p27中要退出source deactivate 查看已有的kernel jupyter kernelspece list 安装 决策树可视化工具graphvizpip install graphviz]]></content>
       <categories>
         <category>Maclog</category>
       </categories>
