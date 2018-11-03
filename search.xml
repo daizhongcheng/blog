@@ -160,7 +160,7 @@
   <entry>
     <title><![CDATA[backslash python3]]></title>
     <url>%2Fblog%2Fundefined%2Fbackslash-python3%2F</url>
-    <content type="text"><![CDATA[practice123456tabby_cat = &quot;\tI&apos;m tabbed in.&quot;persian_cat = &quot;I&apos;m split\non a line.&quot;backslash_cat = &quot;I&apos;m \\a \\ cat.&quot;print(tabby_cat)print(persian_cat)print(backslash_cat) Escape what it does1234567891011121314\\ Backslash \\&apos; single-quote &apos;\&quot; double-quote &quot;\a Ascii bell\b Ascii backspace\f Ascii formfeed\n Ascii LINEFEED\N&#123;&#125; Character named name in the Unicode database\r Ascii carriage return\t Ascii horizontal tab\uxxxx Character with 16-bit hex value xxxx\v Ascii vertical tab\ooo Character with octal value oo\xhh Character with hex value hh]]></content>
+    <content type="text"><![CDATA[practice123456tabby_cat = &quot;\tI&apos;m tabbed in.&quot;persian_cat = &quot;I&apos;m split\non a line.&quot;backslash_cat = &quot;I&apos;m \\a \\ cat.&quot;print(tabby_cat)print(persian_cat)print(backslash_cat) Escape what it does1234567891011121314\\ Backslash \\&apos; single-quote &apos;\&quot; double-quote &quot;\a Ascii bell\b Ascii backspace\f Ascii formfeed\n Ascii linefeed\N&#123;&#125; Character named name in the Unicode database\r Ascii carriage return\t Ascii horizontal tab\uxxxx Character with 16-bit hex value xxxx\v Ascii vertical tab\ooo Character with octal value oo\xhh Character with hex value hh]]></content>
       <categories>
         <category>python</category>
       </categories>
