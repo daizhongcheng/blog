@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[parameters,unpacking,variables]]></title>
+    <url>%2Fblog%2Fundefined%2Fparameters-unpacking-variables%2F</url>
+    <content type="text"><![CDATA[(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: “ca-pub-5143313871951336”, enable_page_level_ads: true });]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Matrices and operations on Matrices]]></title>
     <url>%2Fblog%2Fundefined%2FMatrices-and-operations-on-Matrices-1%2F</url>
     <content type="text"><![CDATA[what is matrix?Definition 1: A rectangular array of numbers of the field F $ \begin{bmatrix} a_{11} &amp; a_{12} \\ a_{21} &amp; a_{22} \end{bmatrix} $ is called a matrix.when row=column,the matrix is called square and the number m equal to n,is called it’s order.in the general case the matrix is called rectangular(of dimension $m \times n $) elementsthe numbers that constitute the matrix are called its elements. subscriptthe first subscript always denotes the row and second subscriptdenote the column multiplication of matricesgenerally the 2 matrices A and B,AB ~= BAfor example$ \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix} \times \begin{bmatrix}2 &amp; 0 \\ 3 &amp; -1 \end{bmatrix} \neq \begin{bmatrix}2 &amp; 0 \\ 3 &amp; -1 \end{bmatrix} \times \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix} $if AB = BA,we can say its permutable.:]]></content>
