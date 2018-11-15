@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[parameters,unpacking,variables]]></title>
-    <url>%2Fblog%2Fundefined%2Fparameters-unpacking-variables%2F</url>
-    <content type="text"><![CDATA[(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: “ca-pub-5143313871951336”, enable_page_level_ads: true });]]></content>
+    <title><![CDATA[list and tuple]]></title>
+    <url>%2Fblog%2Fundefined%2Flist-and-tuple%2F</url>
+    <content type="text"><![CDATA[The list data typeA list is a vale that contains multiple values in an ordered sequence.Items are separed with commas.123[1,2,3][&apos;cat&apos;,&apos;bat&apos;]spam = [&apos;cat&apos;,&apos;bat&apos;] Getting individual values in a list with indexes123spam = [&apos;cat&apos;,&apos;bat&apos;,&apos;rat&apos;,&apos;elephant&apos;]spam[0]spam[1] list can also contain other list values.12345spam = [[&apos;cat&apos;,&apos;bat&apos;],[10,20,30,40,50]]spam[0]- [&apos;cat&apos;,&apos;bat&apos;]spa,[0][1]&apos;bat&apos; Negative IndexesWhile indexes start at 0 and go up,you can also use negative integers for the index.The integer value -1 refers to the last index in a list,the value -2 refers to the second-to-last index in a list,and so on.1234spam = [&apos;cat&apos;,&apos;bat&apos;,&apos;rat&apos;,&apos;elephant&apos;]spam[-1]answer is : &apos;elephant&apos; Getting Sublists with SlicesA slice is typed between square brackets,like an index,but it has two integers separated by a colon.Notice the difference between indexes and slices.123spam = [&apos;cat&apos;,&apos;bat&apos;,&apos;rat&apos;,&apos;elephant&apos;]spam[0:1][&apos;cat&apos;,&apos;bat&apos;] Getting a list’s length with len()spam = [‘cat’,’bat’,’rat’,’elephant’]len(spam) 3len can return the number of values that are in a list value passed to it. List Concatenation and list Replication[1,2,3]+[‘a’,’b’,’c’][1,2,3,’a’,’b’,’c’] Removing Values from Lists with del statementspam = [‘cat’,’bat’,’rat’,’elephant’]def spam[2] # ‘rat’ is deleted]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[lecture]]></title>
+    <url>%2Fblog%2Fundefined%2Flecture%2F</url>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[Matrices and operations on Matrices]]></title>
@@ -57,14 +65,6 @@
     <title><![CDATA[python basics]]></title>
     <url>%2Fblog%2Fundefined%2Fpython-basics%2F</url>
     <content type="text"><![CDATA[Entering Expressions into the interactive shellmy operation system is OS Xhow to enter the interactive Shell?you can just simple type in terminal python or python3math operator1234567** is Exponet 2**3=8% Modulus/remainder 22%8=6// Integer division/floored quotient 22//8=6/ Division 22/8=2.75* multiplication 3*5=15- subtraction 5-2=3+ additon 2+2=4 The integer,floationg-point,and string data typescommon data typesIntergers examples -2,-1,0,1,2,3,4,5floating-point numbers -1.25,-1.0,-0.5,0.0,0.5,1.0,1.25strings ‘a’,’11 cats’1234&gt;&gt;&gt; &apos;alice&apos;+&apos;zc&apos;&apos;alicezc&apos;123&gt;&gt;&gt; &apos;Alice&apos; + 42type error:can&apos;t &apos;int&apos; object to str implicity123&gt;&gt;&gt;&apos;alice&apos;*5alicealicealicealicealice 1234&gt;&gt;&gt;&apos;alice&apos;*&apos;bob&apos;error&gt;&gt;&gt;&apos;alice&apos;*5.0error storing Values in Variablesa variable is like a box in the computer’s memory where you can store a single value.if you want to use the result of an evaluated expression later in your program,you can save it inside a variable.iif you enter the assignmen statemen zc = 42,then a variable named zc will have the integer value 42 stored in it.vaiables name must following three rules:it can be one wordit can use only letters,numbers,and the underscore character.it cant begin with a number your first programthis program says hello and asks for my name.123456print(&apos;hello world!&apos;)print(&apos;what is your name?&apos;) # ask for their namemyname = input() # type your nameprint(&apos;it is good to meet you,&apos;+myname)print(&apos;it is good to meet you,&apos;+myname)print(len(myname)) functionstr(),int(),and float()will evaluate to the string,integer,and floationg-point forms]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[elements of flow control of python]]></title>
-    <url>%2Fblog%2Fundefined%2Felements-of-flow-control-of-python%2F</url>
-    <content type="text"><![CDATA[Flow controlFow control statements often start with a part called the condition,and all are followed by a block called the clause. if statementsThe if keyworda conditiona colon(:)starting on the next line,an indented block of code123name = input()if name == &apos;zc&apos;:print(&apos;zc you are good&apos;)]]></content>
       <categories>
         <category>python</category>
       </categories>
@@ -139,6 +139,14 @@
     <content type="text"><![CDATA[This is written by Shawn. My classmate Cui.]]></content>
       <categories>
         <category>SPE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[TSS Summary]]></title>
+    <url>%2Fblog%2Fundefined%2FTSS-Summary%2F</url>
+    <content type="text"><![CDATA[Erwartungswert E{x(n)}$$ E\lbrace x(n)\rbrace=\int_{\infty}^{\infty}x\cdot f_x(x)dx $$ quadratischer Mittelwert$$ E\lbrace x^2(n)\rbrace=\int_{\infty}^{\infty}x^2\cdot f_x(x)dx $$ varianz$$ \sigma_{x}^{(2)}=m_{x}^{(2)}-{m_{x}^{(1)})^2 $$]]></content>
+      <categories>
+        <category>TSS</category>
       </categories>
   </entry>
   <entry>
