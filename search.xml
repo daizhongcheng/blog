@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[github]]></title>
+    <url>%2Fblog%2Fundefined%2Fgithub%2F</url>
+    <content type="text"><![CDATA[知识点 ssh 公私钥的使用 Github 的基本使用 Git 工具基本使用ssh-keygen生成密钥adress: .ssh在这个文里面有id-rsa和id-rsa.pub,打id_rsa.pub,复制内容到github.安装git 工具sudo apt-get install git -y配置用户名与邮箱git config –global user.name “用户名“git config –global user.email “邮箱“git clone 地址push [-u] origin &lt;分支名&gt;u是绑定你这一次的仓库名以后不用再从新输入首先我们可以通过 git fetch 命令查看有哪一些新改动，用法是在仓库目录下敲入 git fetch origin确认好更新的内容后，下一步就是把更新给同步到本地仓库中了，通过 git pull 命令来实现，具体用法是 git pull origin &lt;分支名&gt;，分支名默认是 master，再查看一下目录，可以看到已经同步好了]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[python basic]]></title>
     <url>%2Fblog%2Fundefined%2Fpython-basic%2F</url>
     <content type="text"><![CDATA[list example12345678910111 catNames =[] 2 while True: 3 print(&apos;Enter the name of the cat&apos;+str(len(catNames)+1)) 4 name = input() 5 if name ==&apos;&apos;: 6 break 7 catNames = catNames + [name] 8 print(&apos;The cat names are:&apos;) 9 for i in catNames: 10 print(&apos;&apos;+i) 11 # catNames=[&apos;yang&apos;,&apos;zc&apos;] function example1234567891 ## write your own functions 2 def hello(): 3 print(&apos;howdy!&apos;) 4 hello() 5 ## write your 2 functions 6 def sage(age): 7 print(&quot;you are &quot; + age) 8 sage(&quot;12&quot;) 9 sage(&quot;10&quot;) global statemen12345671 ## global statement 2 def spam(): 3 global eggs # global statement,this variable will be global 4 eggs = &apos;spam&apos; 5 eggs = &apos;global&apos; 6 spam() 7 print(eggs) random function123456781 # this is a guess the number game. 2 import random 3 secretNumber = random.randint(1,20) 4 print(&apos;I am thinking of a number between 1 and 20.&apos;) 5 # ask the player to guess 6 times 6 for guessestaken in range(1,7): 7 print(&apos;take a guess.&apos;) 8 guess = int(input()) The Tuple Data Typeeggs = (‘hello’,42,0.5)tupels are typed with parenthese()tuples cannot have their values modified]]></content>
@@ -23,11 +31,6 @@
       <categories>
         <category>python</category>
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[lecture]]></title>
-    <url>%2Fblog%2Fundefined%2Flecture%2F</url>
-    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[Matrices and operations on Matrices]]></title>
