@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[python basic]]></title>
+    <url>%2Fblog%2Fundefined%2Fpython-basic%2F</url>
+    <content type="text"><![CDATA[list example12345678910111 catNames =[] 2 while True: 3 print(&apos;Enter the name of the cat&apos;+str(len(catNames)+1)) 4 name = input() 5 if name ==&apos;&apos;: 6 break 7 catNames = catNames + [name] 8 print(&apos;The cat names are:&apos;) 9 for i in catNames: 10 print(&apos;&apos;+i) 11 # catNames=[&apos;yang&apos;,&apos;zc&apos;] function example1234567891 ## write your own functions 2 def hello(): 3 print(&apos;howdy!&apos;) 4 hello() 5 ## write your 2 functions 6 def sage(age): 7 print(&quot;you are &quot; + age) 8 sage(&quot;12&quot;) 9 sage(&quot;10&quot;) global statemen12345671 ## global statement 2 def spam(): 3 global eggs # global statement,this variable will be global 4 eggs = &apos;spam&apos; 5 eggs = &apos;global&apos; 6 spam() 7 print(eggs) random function123456781 # this is a guess the number game. 2 import random 3 secretNumber = random.randint(1,20) 4 print(&apos;I am thinking of a number between 1 and 20.&apos;) 5 # ask the player to guess 6 times 6 for guessestaken in range(1,7): 7 print(&apos;take a guess.&apos;) 8 guess = int(input()) The Tuple Data Typeeggs = (‘hello’,42,0.5)tupels are typed with parenthese()tuples cannot have their values modified]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[“为什么极点在左平面稳定？”]]></title>
     <url>%2Fblog%2Fundefined%2F%E2%80%9C%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9E%81%E7%82%B9%E5%9C%A8%E5%B7%A6%E5%B9%B3%E9%9D%A2%E7%A8%B3%E5%AE%9A%EF%BC%9F%E2%80%9D%2F</url>
     <content type="text"><![CDATA[Math Knowledgeexist $ k_1,k_2,k_3 \dots k_n $$ k_1y_1+k_2y_2+k_3y_3+\dots+k_ny_n=0 $this is linear dependentif notthis is linear independent linear indepent$ y_1, y_2 $ is linear independenty1,y2 是两个线性无关的特解。 微分方程的解$ r_1,r_2是两个不相等的实根$ 微分方程的通解为$ Y = C_1e^{r_1t}+C_2e^{r_2t} $ 两个相等的实根$ r_1,r_2 $$ Y = (C_1+C_2x)e^{r_1x} $ 一对共轭复根$ r_1=a \pm i\beta $$ Y = e^{ax}(C_1cos(\beta)+C_1sin(\beta)) $ 分析在控制领域中，我们使用微分方程来建立数学模型从微分方程的解我们可以看出输出与输入的关系，我们所说的极点就是r1,r2的根，只有极点小于0,我们的输出y在时间t大于无穷时趋向于0,这时我们们就可以说这个系统是稳定的。]]></content>
