@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[“文件处理”]]></title>
+    <url>%2Fblog%2Fundefined%2F%E2%80%9C%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E2%80%9D%2F</url>
+    <content type="text"><![CDATA[operate file open file read file with statementopen()“r”,以只读模式打开，你只能读取文件但不能编辑/删除文件的任何内容“w”，以写入模式，可写，可删“a”，以追加模式打开，写入到文件中的任何数据将自动添加到末尾variable = open(‘fileName’)打开文件后，要关闭文件variable.close()打开文件后，可以使用read()读取整个文件]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[python exe]]></title>
+    <url>%2Fblog%2Fundefined%2Fpython-exe%2F</url>
+    <content type="text"><![CDATA[write the script#!/usr/bin/env python3 after save,change the modechmod +x filename run itwe can run it use ./filename.py使用 4 个空格来缩进永远不要混用空格和制表符在函数之间空一行在类之间空两行字典，列表，元组以及参数列表中，在 , 后添加一个空格。对于字典，: 后面也添加一个空格在赋值运算符和比较运算符周围要有空格（参数列表中除外），但是括号里则不加空格：a = f(1, 2) + g(3, 4)]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[github]]></title>
     <url>%2Fblog%2Fundefined%2Fgithub%2F</url>
     <content type="text"><![CDATA[知识点 ssh 公私钥的使用 Github 的基本使用 Git 工具基本使用ssh-keygen生成密钥adress: .ssh在这个文里面有id-rsa和id-rsa.pub,打id_rsa.pub,复制内容到github.安装git 工具sudo apt-get install git -y配置用户名与邮箱git config –global user.name “用户名“git config –global user.email “邮箱“git clone 地址push [-u] origin &lt;分支名&gt;u是绑定你这一次的仓库名以后不用再从新输入首先我们可以通过 git fetch 命令查看有哪一些新改动，用法是在仓库目录下敲入 git fetch origin确认好更新的内容后，下一步就是把更新给同步到本地仓库中了，通过 git pull 命令来实现，具体用法是 git pull origin &lt;分支名&gt;，分支名默认是 master，再查看一下目录，可以看到已经同步好了]]></content>
