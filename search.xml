@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Creating Regex Objects]]></title>
+    <url>%2Fblog%2Fundefined%2FCreating-Regex-Objects%2F</url>
+    <content type="text"><![CDATA[Regex ObjectsAll the regex function in python are in the ‘re’ module.Enter the following into the interactive shell to import this module:1234567import rephoneNumRegex = re.compile(r&apos;(\(\d\d\d\))(\d\d\d-\d\d\d\d)&apos;)mo = phoneNumRegex.search(&apos;My phone number is (415) 555-4242.&apos;)mo.group(1)mo.group(2)&apos;555-4242&apos; Matching Multiple Groups with the Pipe123456batRegex = re.compile(r&apos;Bat(man|mobile|copter|bat)&apos;)mo = batRegex.search(&apos;Batmobile lost a wheel&apos;)mo.group()&apos;Batmobile&apos;mo.group(1)&apos;mobile&apos;]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[“文件处理”]]></title>
     <url>%2Fblog%2Fundefined%2F%E2%80%9C%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E2%80%9D%2F</url>
     <content type="text"><![CDATA[operate file open file read file with statementopen()“r”,以只读模式打开，你只能读取文件但不能编辑/删除文件的任何内容“w”，以写入模式，可写，可删“a”，以追加模式打开，写入到文件中的任何数据将自动添加到末尾variable = open(‘fileName’)打开文件后，要关闭文件variable.close()打开文件后，可以使用read()读取整个文件]]></content>
