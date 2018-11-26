@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[K methode]]></title>
+    <url>%2Fblog%2Fundefined%2FK-methode%2F</url>
+    <content type="text"><![CDATA[概述k 近邻算法采用测量不同特征值之间的距离方法进行分类。优点：精度高，对异常值不敏感，无数据输入假定。缺点：计算复杂度高，空间复杂度高。适用数据范围：数值型和标称型。 原理存在一个样本数据集合，每个数据有自己的标签。当我们输入新的数据后，会计算新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据的分类标签。一般来说我们只选择样本数据集中前k个最相似的数据。例：电影分类，分开爱情片和动作片。输入一个未知电影，计算未知电影与爱情片和动作片的距离。 准备首先，创建名为knn.py的python]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[coprime factorization]]></title>
+    <url>%2Fblog%2Fundefined%2Fright-coprime-factorization%2F</url>
+    <content type="text"><![CDATA[right coprime factorization,a state feedback interpretation$ y = Gu \rightarrow\begin{cases}\dot{x}=Ax+Bu \\y = Cx+Du\end{cases}\rightarrow{u:=Fx+v}\begin{cases}\dot{x}=(A+BF)x+Bv \\u=Fx+v \\y=Cx+D(v+Fx)=(C+DF)x+Dv\end{cases}我们把u定义的公式代入，得到F和v的式子。F,v的式子可以得到传递矩阵。M,N$ u = Mv, y = Nv The left co-prime factorizationan observer-based residual generation interpretation]]></content>
+      <categories>
+        <category>robust</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Creating Regex Objects]]></title>
     <url>%2Fblog%2Fundefined%2FCreating-Regex-Objects%2F</url>
     <content type="text"><![CDATA[Regex ObjectsAll the regex function in python are in the ‘re’ module.Enter the following into the interactive shell to import this module:1234567import rephoneNumRegex = re.compile(r&apos;(\(\d\d\d\))(\d\d\d-\d\d\d\d)&apos;)mo = phoneNumRegex.search(&apos;My phone number is (415) 555-4242.&apos;)mo.group(1)mo.group(2)&apos;555-4242&apos; Matching Multiple Groups with the Pipe123456batRegex = re.compile(r&apos;Bat(man|mobile|copter|bat)&apos;)mo = batRegex.search(&apos;Batmobile lost a wheel&apos;)mo.group()&apos;Batmobile&apos;mo.group(1)&apos;mobile&apos;]]></content>
