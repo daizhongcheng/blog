@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[environment configeration]]></title>
+    <url>%2Fblog%2Fundefined%2Fenvironment-configeration%2F</url>
+    <content type="text"><![CDATA[pip,numpy,scikit-nerualnetwork installos:macospython2.76 have already installed the pip.scikit-nerualnetwork is deep learning toolsinstall: pip install -U scikit-learnscikit-learn include the SVM tools install matplotlibpip3 install -U matplotlib]]></content>
+      <categories>
+        <category>machine learning</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[The two types of problems]]></title>
     <url>%2Fblog%2Fundefined%2FThe-two-types-of-problems%2F</url>
     <content type="text"><![CDATA[1.Analysis problems:Given a controller,determine if the controlled signals satisfy the desired properties for all admissible noises,disturbances,and model uncertainties.2.Synthesis problems:Design a controller so that the controlled signals satisfy the desire properties for all admissble noises,disturbances,and model uncertainties.]]></content>
