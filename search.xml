@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[what is the self_driving]]></title>
+    <url>%2Fblog%2Fundefined%2Fwhat-is-the-self-driving%2F</url>
+    <content type="text"><![CDATA[Human1.high traffic accident rate2.learn to drive from scratch3.parking trouble self driving car1.more reliable driving2.learnalbe driving system3.no parking trouble 6 level of the self driving system1.driver assistance(driver fully engaged2.partial automation(1,automatic cruise control(2,automatic lane keeping3.conditional automation(1,human take over(2,whenever necessary4.no human interference(1,without steering wheel,throttle or brake(2,restricted in geofence5.full automation1995 Mercedes s500 finished the eureka prometheus project.2009 google started self_driving project]]></content>
+      <categories>
+        <category>self driving</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[environment configeration]]></title>
     <url>%2Fblog%2Fundefined%2Fenvironment-configeration%2F</url>
     <content type="text"><![CDATA[pip,numpy,scikit-nerualnetwork installos:macospython2.76 have already installed the pip.scikit-nerualnetwork is deep learning toolsinstall: pip install -U scikit-learnscikit-learn include the SVM tools install matplotlibpip3 install -U matplotlib]]></content>
