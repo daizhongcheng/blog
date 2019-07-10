@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[robust control note 1]]></title>
     <url>%2Fblog%2Fundefined%2Frobust-control-note-1%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[The main 2 topic1.parameterisation of stabilising controllers2.observers and observers-based controllers\Objective:y := the measurementw := reference signalthe goal is to make the $e = y - w /rightarrow min$ The stepplant is given (G(s),(A,B,C,D))Where (A,B,C,D) is statespace representation. 1.select of type controllerPI controllerAdaptive controllerFurry controller (not in the courseState feedback controller 2.design of controller1.pole placement (we can define eigendynamics of the system.2.Minimum energy control3.LQ(linear quadratisch) Controller4.quadratic reglflaeche]]></content>
       <categories>
         <category>robust</category>
       </categories>
