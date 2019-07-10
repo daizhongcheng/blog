@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[robust control note 1]]></title>
+    <url>%2Fblog%2Fundefined%2Frobust-control-note-1%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>robust</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[what is the self_driving]]></title>
     <url>%2Fblog%2Fundefined%2Fwhat-is-the-self-driving%2F</url>
     <content type="text"><![CDATA[Human1.high traffic accident rate2.learn to drive from scratch3.parking trouble self driving car1.more reliable driving2.learnalbe driving system3.no parking trouble 6 level of the self driving system1.driver assistance(driver fully engaged2.partial automation(1,automatic cruise control(2,automatic lane keeping3.conditional automation(1,human take over(2,whenever necessary4.no human interference(1,without steering wheel,throttle or brake(2,restricted in geofence5.full automation1995 Mercedes s500 finished the eureka prometheus project.2009 google started self_driving project]]></content>
@@ -35,7 +43,7 @@
   <entry>
     <title><![CDATA[coprime factorization]]></title>
     <url>%2Fblog%2Fundefined%2Fright-coprime-factorization%2F</url>
-    <content type="text"><![CDATA[right coprime factorization,a state feedback interpretation$ y = Gu \rightarrow\begin{cases}\dot{x}=Ax+Bu \\y = Cx+Du\end{cases}\rightarrow{u:=Fx+v}\begin{cases}\dot{x}=(A+BF)x+Bv \\u=Fx+v \\y=Cx+D(v+Fx)=(C+DF)x+Dv\end{cases}我们把u定义的公式代入，得到F和v的式子。F,v的式子可以得到传递矩阵。M,N$ u = Mv, y = Nv The left co-prime factorizationan observer-based residual generation interpretation]]></content>
+    <content type="text"><![CDATA[right coprime factorization,a state feedback interpretation$ y = Gu \rightarrow\begin{cases}\dot{x}=Ax+Bu \\y = Cx+Du\end{cases}\rightarrow{u:=Fx+v}\begin{cases}\dot{x}=(A+BF)x+Bv \\u=Fx+v \\y=Cx+D(v+Fx)=(C+DF)x+Dv\end{cases}$我们把u定义的公式代入，得到F和v的式子。F,v的式子可以得到传递矩阵。M,N$ u = Mv, y = Nv The left co-prime factorizationan observer-based residual generation interpretation]]></content>
       <categories>
         <category>robust</category>
       </categories>
