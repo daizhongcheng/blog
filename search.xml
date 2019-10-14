@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[robust]]></title>
+    <url>%2Fblog%2Fundefined%2Frobust%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <tags>
+        <tag>Robust</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[the first c program - hello world]]></title>
     <url>%2Fblog%2Fundefined%2Fthe-first-c-program-hello-world%2F</url>
     <content type="text"><![CDATA[open terminal,new file1touch helloWorld.c edit it use vim1vim helloWorld.c input the code123456#include&lt;stdio.h&gt;int main()&#123; printf(&quot;hello world&quot;); return 0;&#125; gcc1gcc -o helloWorld helloWorld.c run it1./helloWorld.c]]></content>
