@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[printf scanf]]></title>
+    <url>%2Fblog%2FC_program%2Fprintf-scanf%2F</url>
+    <content type="text"><![CDATA[1234567891011121314 #include&lt;stdio.h&gt;int main()&#123; int a,b,c; printf(&quot;please enter a value:&quot;); scanf(&quot;%d&quot;,&amp;a); printf(&quot;\n&quot;); printf(&quot;please enter b value&quot;); scanf(&quot;%d&quot;,&amp;b); c=a+b; printf(&quot;\n%d\n&quot;,c); return 0;&#125;]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[LATEX problem summary]]></title>
+    <url>%2Fblog%2Flatex%2FLATEX-problem-summary%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[robust]]></title>
     <url>%2Fblog%2Flearning%2Frobust%2F</url>
     <content type="text"><![CDATA[]]></content>
