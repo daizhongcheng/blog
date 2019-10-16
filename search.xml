@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[printf scanf]]></title>
     <url>%2Fblog%2FC_program%2Fprintf-scanf%2F</url>
-    <content type="text"><![CDATA[1234567891011121314 #include&lt;stdio.h&gt;int main()&#123; int a,b,c; printf(&quot;please enter a value:&quot;); scanf(&quot;%d&quot;,&amp;a); printf(&quot;\n&quot;); printf(&quot;please enter b value&quot;); scanf(&quot;%d&quot;,&amp;b); c=a+b; printf(&quot;\n%d\n&quot;,c); return 0;&#125; printf: print outputscanf: inputint 4 wordshort 2 wordlong 8word12345678#include&lt;stdio.h&gt;int main()char a,b;a=&apos;c&apos;;b=121;printf(&quot;%c,%c\n&quot;,a,b);printf(&quot;%d,%d\n&quot;,a,b);return 0;]]></content>
+    <content type="text"><![CDATA[1234567891011121314 #include&lt;stdio.h&gt;int main()&#123; int a,b,c; printf(&quot;please enter a value:&quot;); scanf(&quot;%d&quot;,&amp;a); printf(&quot;\n&quot;); printf(&quot;please enter b value&quot;); scanf(&quot;%d&quot;,&amp;b); c=a+b; printf(&quot;\n%d\n&quot;,c); return 0;&#125; printf: print outputscanf: inputint 4 wordshort 2 wordlong 8 word12345678910#include&lt;stdio.h&gt;int main()&#123;char a,b;a=&apos;c&apos;;b=121;printf(&quot;%c,%c\n&quot;,a,b);printf(&quot;%d,%d\n&quot;,a,b);return 0;&#125;]]></content>
       <categories>
         <category>C</category>
       </categories>
