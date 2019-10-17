@@ -9,11 +9,6 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[Repetely loop]]></title>
-    <url>%2Fblog%2Fundefined%2FRepetely-loop%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[switch]]></title>
     <url>%2Fblog%2FC_program%2Fswitch%2F</url>
     <content type="text"><![CDATA[123456789101112#include&lt;stdio.h&gt;int main()&#123; int a; scanf(&quot;%d&quot;,&amp;a); switch(a)&#123; case 1:printf(&quot;monday\n&quot;); break; case 2:printf(&quot;tuesday\n&quot;);break;&#125;&#125;]]></content>
