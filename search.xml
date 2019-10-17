@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[array]]></title>
     <url>%2Fblog%2FC_program%2Farray%2F</url>
-    <content type="text"><![CDATA[1 dimension1234567891011#include&lt;stdio.h&gt;int main()&#123; int i,a[10]; //10 value for(i=0;i&lt;10;i++) a[i] = i + 1; for(i=9;i&gt;=0;i--) printf(&quot;%d\t&quot;,a[i]); return 0;&#125; sort the number1234567891011121314151617181920#include&lt;stdio.h&gt;int main()&#123; int i,j,a[10]; printf(&quot;please enter 10 number:\n&quot;); for(i=0;i&lt;10;i++) scanf(&quot;%d&quot;,&amp;a[i]); for(j=0;j&lt;9;j++) for(i=0;i&lt;9-j;i++) if(a[i]&gt;a[i+1]) &#123; t = a[i]; a[i] = a[i+1]; a[i+1] = t; &#125; printf(&quot;the sorted number:\n&quot;); for(i=0;i&lt;10;i++) printf(&quot;%d\t&quot;,a[i]); return 0;&#125; 2dimension]]></content>
+    <content type="text"><![CDATA[one dimension1234567891011#include&lt;stdio.h&gt;int main()&#123; int i,a[10]; //10 value for(i=0;i&lt;10;i++) a[i] = i + 1; for(i=9;i&gt;=0;i--) printf(&quot;%d\t&quot;,a[i]); return 0;&#125; sort the number1234567891011121314151617181920#include&lt;stdio.h&gt;int main()&#123; int i,j,a[10]; printf(&quot;please enter 10 number:\n&quot;); for(i=0;i&lt;10;i++) scanf(&quot;%d&quot;,&amp;a[i]); for(j=0;j&lt;9;j++) for(i=0;i&lt;9-j;i++) if(a[i]&gt;a[i+1]) &#123; t = a[i]; a[i] = a[i+1]; a[i+1] = t; &#125; printf(&quot;the sorted number:\n&quot;); for(i=0;i&lt;10;i++) printf(&quot;%d\t&quot;,a[i]); return 0;&#125; two dimension int a[2][4] int a[2][4]]]></content>
       <categories>
         <category>C</category>
       </categories>
