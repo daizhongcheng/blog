@@ -35,7 +35,10 @@
   <entry>
     <title><![CDATA[LATEX problem summary]]></title>
     <url>%2Fblog%2Flatex%2FLATEX-problem-summary%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[problem 1when type \mathbb{D}, yields undefied sequence errorsolution:load the package amsfonts1\usepackage&#123;amsfonts&#125;]]></content>
+      <categories>
+        <category>LATEX</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[robust]]></title>
