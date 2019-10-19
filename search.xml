@@ -35,7 +35,7 @@
   <entry>
     <title><![CDATA[LATEX problem summary]]></title>
     <url>%2Fblog%2Flatex%2FLATEX-problem-summary%2F</url>
-    <content type="text"><![CDATA[problem 1when type \mathbb{D}, yields undefied sequence errorsolution:load the package amsfonts1\usepackage&#123;amsfonts&#125; text width123\quad % one space\qquad % two space\hspace&#123;3cm&#125; % 3cm]]></content>
+    <content type="text"><![CDATA[problem 1when type \mathbb{D}, yields undefied sequence errorsolution:load the package amsfonts1\usepackage&#123;amsfonts&#125; text width1234567\quad % one space\qquad % two space\hspace&#123;3cm&#125; % 3cm \textwidth&#123;&#125;\em&#123;&#125;\vspace&#123;&#125; %vertical mode and internal vertical mode\vskip&#123;&#125;]]></content>
       <categories>
         <category>LATEX</category>
       </categories>
