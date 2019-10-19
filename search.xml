@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[subfunction]]></title>
+    <url>%2Fblog%2FC_program%2Fsubfunction%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021#include&lt;stdio.h&gt;#include&lt;string.h&gt;int main()&#123;void printstar();void printStr();printstar();printStr();printstar();return 0;&#125;void printstar()&#123; printf(&quot;*********************\n&quot;);&#125;void printStr()&#123; printf(&quot;how do you do!\n&quot;);&#125;]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[charArray]]></title>
     <url>%2Fblog%2FC_program%2FcharArray%2F</url>
     <content type="text"><![CDATA[1234567891011121314151617181920#include&lt;stdio.h&gt;int main()&#123; char c[][9] = &#123; &#123;&apos;*&apos;,&apos;*&apos;,&apos;*&apos;,&apos;*&apos;,&apos;*&apos;&#125;, &#123;&apos;*&apos;,&apos;,&apos;,&apos;,&apos;,&apos;,&apos;,&apos;*&apos;&#125;, &#123;&apos;*&apos;,&apos;,&apos;,&apos;,&apos;,&apos;,&apos;,&apos;*&apos;&#125;, &#123;&apos;*&apos;,&apos;,&apos;,&apos;,&apos;,&apos;,&apos;,&apos;*&apos;&#125;, &#123;&apos;*&apos;,&apos;*&apos;,&apos;*&apos;,&apos;*&apos;,&apos;*&apos;&#125;, &#125;; int i,j; for(i=0;i&lt;5;i++) &#123; for(j=0;j&lt;9;j++) printf(&quot;%c&quot;,c[i][j]); printf(&quot;\n&quot;); &#125; &#125; char string1234567char[] =&#123;&quot;I love you zhongcheng&quot;&#125;;or char[] = &quot;I love you zhongcheng&quot; ;note:char[] = &quot;I love you zhongcheng&quot; ;is same as char[]=&#123;&apos;I&apos;,&apos; &apos;,&apos;l&apos;,&apos;o&apos;,&apos;v&apos;,&apos;e&apos;,&apos; &apos;,&apos;z&apos;,&apos;h&apos;,&apos;o&apos;,&apos;n&apos;,&apos;g&apos;,&apos; &apos;,&apos;c&apos;,&apos;h&apos;,&apos;e&apos;,&apos;n&apos;,&apos;g&apos;,&apos;\0&apos;&#125;; char string output(print)12char[]=&quot;I love zhongcheng&quot;;printf(&quot;%s&quot;,c); note:%s means output the string get and put function12345678910#include&lt;stdio.h&gt;#include&lt;string.h&gt;int main()&#123; char str[] = &quot;study is important in the life&quot; puts(str); printf(&quot;Enter a new string:&quot;); gets(str); puts(str);&#125; gets:get the string from the terminalputs:print the string strcat:combine the string123str1[40] = &quot;I dont want to do it,&quot;;str2[] = &quot;but you can do it&quot;;str3[] = strcat(str1,str2); result:str3[] = “I dont want to do it,but you can do it”; strlen:get the length of string12char str[]=&quot;study&quot;;printf(&quot;%d&quot;,strlen(str)); note:strlen() return the length of string but don’t include the ‘\0’ strcpy:copy the string12char str1[],str2[] = &quot;I must study&quot;;str2 = strcpy(str1,str2); result:str1=”I must study”; strcmp:comparision1strcmp(str1,str2);]]></content>
