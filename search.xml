@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[subfunction]]></title>
     <url>%2Fblog%2FC_program%2Fsubfunction%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021#include&lt;stdio.h&gt;#include&lt;string.h&gt;int main()&#123;void printstar();void printStr();printstar();printStr();printstar();return 0;&#125;void printstar()&#123; printf(&quot;*********************\n&quot;);&#125;void printStr()&#123; printf(&quot;how do you do!\n&quot;);&#125;]]></content>
+    <content type="text"><![CDATA[123456789101112131415161718192021#include&lt;stdio.h&gt;#include&lt;string.h&gt;int main()&#123;void printstar();void printStr();printstar();printStr();printstar();return 0;&#125;void printstar()&#123; printf(&quot;*********************\n&quot;);&#125;void printStr()&#123; printf(&quot;how do you do!\n&quot;);&#125; int main() is the main program.void printstar() and void printStr are the subfunction. The step of the main program1.call the void printstar()2.call the void printStr()3.run the printstar()4.run the printStr()]]></content>
       <categories>
         <category>C</category>
       </categories>
