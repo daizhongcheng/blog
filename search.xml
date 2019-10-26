@@ -738,17 +738,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
       </categories>
   </entry>
   <entry>
-    <title>TSS Summary</title>
-    <url>/blog/learning/TSS-Summary/</url>
-    <content><![CDATA[<h5 id="Erwartungswert-E-x-n"><a href="#Erwartungswert-E-x-n" class="headerlink" title="Erwartungswert E{x(n)}"></a>Erwartungswert E{x(n)}</h5><p>$$ E\lbrace x(n)\rbrace=\int_{\infty}^{\infty}x\cdot f_x(x)dx $$</p>
-<h5 id="quadratischer-Mittelwert"><a href="#quadratischer-Mittelwert" class="headerlink" title="quadratischer Mittelwert"></a>quadratischer Mittelwert</h5><p>$$ E\lbrace x^2(n)\rbrace=\int_{\infty}^{\infty}x^2\cdot f_x(x)dx $$</p>
-<h4 id="varianz"><a href="#varianz" class="headerlink" title="varianz"></a>varianz</h4><p>$$  \sigma_{x}^{(2)}=m_{x}^{(2)}-{m_{x}^{(1)})^2 $$</p>
-]]></content>
-      <categories>
-        <category>TSS</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Kalman Filter</title>
     <url>/blog/SPE/Kalman-Filter/</url>
     <content><![CDATA[<h4 id="Why-use-kalman-filters"><a href="#Why-use-kalman-filters" class="headerlink" title="Why use kalman filters?"></a>Why use kalman filters?</h4><iframe width="854" height="480" src="https://www.youtube.com/embed/mwn8xhgNpFY?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
