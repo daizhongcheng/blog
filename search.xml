@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>a</title>
-    <url>/blog/undefined/a/</url>
-    <content><![CDATA[<p>iiiiii</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Inverted pendulum</title>
     <url>/blog/studyController/Inverted-pendulum/</url>
     <content><![CDATA[<p><img src="https://wx2.sinaimg.cn/mw690/b6fc2a15gy1g8njjdwnfyj20n60j4djs.jpg" alt></p>
+<h4 id="mathematical-model"><a href="#mathematical-model" class="headerlink" title="mathematical model"></a>mathematical model</h4><p>$$E_{pot} = M_pgl_p\cos\alpha $$<br>$$\frac{1}{2}M_p(\dot{\theta}l_p\cos \alpha)^2 +\frac{1}{2}(\dot{\alpha}l_p\sin\sin \alpha)^2 $$<br>$$ E_{kinArm} = \frac{1}{2}J_p(\dot{\theta})^2 $$<br>begin{equation}<br>begin{pmatrix}<br>\dot{\theta}<br>\dot{\alpha}<br>\ddot{\theta}<br>\ddot{\alpha}<br>end{pmatrix}<br>end{equation}</p>
 ]]></content>
       <categories>
         <category>Control</category>
