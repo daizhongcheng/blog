@@ -10,6 +10,8 @@
 <h4 id="PID-controller-Design"><a href="#PID-controller-Design" class="headerlink" title="PID controller Design"></a>PID controller Design</h4><p>$$ u = K_pe(t)+K_i\int_0^te(\tau)d\tau + K_p\frac{de(t)}{dt} $$</p>
 <h4 id="LQR-controller-Design"><a href="#LQR-controller-Design" class="headerlink" title="LQR controller Design"></a>LQR controller Design</h4><p>$$J = \frac{1}{2}\int_0^{\infty} x^TQx + u^TRudt$$</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[K,S,P]= lqr(A,B,Q,R);</span><br><span class="line">sys1 = ss(A-B*K,B,C,D);</span><br><span class="line">step(sys1);</span><br></pre></td></tr></table></figure>
+<h4 id="compute-the-vorfilter"><a href="#compute-the-vorfilter" class="headerlink" title="compute the vorfilter"></a>compute the vorfilter</h4><p>$$\dot{x} = Ax + Bu$$<br>$$u = Kx + v$$<br>$$v = - (C_w(A-BK)^{-1}B)^{-1} $$<br>reference:mehrgr&quot;ossen regelungstechnik</p>
+<h4 id="conclusion"><a href="#conclusion" class="headerlink" title="conclusion"></a>conclusion</h4><p>object: compute K and the v<br>result: output is the same with the reference input in the end</p>
 ]]></content>
       <categories>
         <category>Control</category>

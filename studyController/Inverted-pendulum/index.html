@@ -87,7 +87,7 @@
 <meta property="og:description" content="mathematical model$$E_{pot} = M_pgl_p\cos\alpha $$$$ E_{kinP}\frac{1}{2}M_p(\dot{\theta}l_p\cos \alpha)^2 +\frac{1}{2}(\dot{\alpha}l_p\sin\sin \alpha)^2 $$$$ E_{kinArm} = \frac{1}{2}J_p(\dot{\theta})">
 <meta property="og:locale" content="studyController">
 <meta property="og:image" content="https://wx2.sinaimg.cn/mw690/b6fc2a15gy1g8njjdwnfyj20n60j4djs.jpg">
-<meta property="og:updated_time" content="2019-11-06T00:10:00.026Z">
+<meta property="og:updated_time" content="2019-11-06T00:22:21.218Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Inverted pendulum">
 <meta name="twitter:description" content="mathematical model$$E_{pot} = M_pgl_p\cos\alpha $$$$ E_{kinP}\frac{1}{2}M_p(\dot{\theta}l_p\cos \alpha)^2 +\frac{1}{2}(\dot{\alpha}l_p\sin\sin \alpha)^2 $$$$ E_{kinArm} = \frac{1}{2}J_p(\dot{\theta})">
@@ -380,6 +380,8 @@
 <h4 id="PID-controller-Design"><a href="#PID-controller-Design" class="headerlink" title="PID controller Design"></a>PID controller Design</h4><p>$$ u = K_pe(t)+K_i\int_0^te(\tau)d\tau + K_p\frac{de(t)}{dt} $$</p>
 <h4 id="LQR-controller-Design"><a href="#LQR-controller-Design" class="headerlink" title="LQR controller Design"></a>LQR controller Design</h4><p>$$J = \frac{1}{2}\int_0^{\infty} x^TQx + u^TRudt$$</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[K,S,P]= lqr(A,B,Q,R);</span><br><span class="line">sys1 = ss(A-B*K,B,C,D);</span><br><span class="line">step(sys1);</span><br></pre></td></tr></table></figure>
+<h4 id="compute-the-vorfilter"><a href="#compute-the-vorfilter" class="headerlink" title="compute the vorfilter"></a>compute the vorfilter</h4><p>$$\dot{x} = Ax + Bu$$<br>$$u = Kx + v$$<br>$$v = - (C_w(A-BK)^{-1}B)^{-1} $$<br>reference:mehrgr&quot;ossen regelungstechnik</p>
+<h4 id="conclusion"><a href="#conclusion" class="headerlink" title="conclusion"></a>conclusion</h4><p>object: compute K and the v<br>result: output is the same with the reference input in the end</p>
 
       
     </div>
@@ -543,7 +545,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#mathematical-model"><span class="nav-number">1.</span> <span class="nav-text">mathematical model</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#state-space-equation"><span class="nav-number">2.</span> <span class="nav-text">state space equation</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#using-the-voltige-as-the-input"><span class="nav-number">3.</span> <span class="nav-text">using the voltige as the input</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#PID-controller-Design"><span class="nav-number">4.</span> <span class="nav-text">PID controller Design</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#LQR-controller-Design"><span class="nav-number">5.</span> <span class="nav-text">LQR controller Design</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#mathematical-model"><span class="nav-number">1.</span> <span class="nav-text">mathematical model</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#state-space-equation"><span class="nav-number">2.</span> <span class="nav-text">state space equation</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#using-the-voltige-as-the-input"><span class="nav-number">3.</span> <span class="nav-text">using the voltige as the input</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#PID-controller-Design"><span class="nav-number">4.</span> <span class="nav-text">PID controller Design</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#LQR-controller-Design"><span class="nav-number">5.</span> <span class="nav-text">LQR controller Design</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#compute-the-vorfilter"><span class="nav-number">6.</span> <span class="nav-text">compute the vorfilter</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#conclusion"><span class="nav-number">7.</span> <span class="nav-text">conclusion</span></a></li></ol></div>
             
 
           </div>
